@@ -8,7 +8,19 @@
   ],
   "routes": [
     {
-      "src": "/(.*)",
+      "src": "/api/ra",
+      "dest": "server.js"
+    },
+    {
+      "src": "/style.css",
+      "dest": "server.js"
+    },
+    {
+      "src": "/game.js",
+      "dest": "server.js"
+    },
+    {
+      "src": "/",
       "dest": "server.js"
     }
   ]
