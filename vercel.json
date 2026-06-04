@@ -1,3 +1,7 @@
 {
-  "version": 2
+  "version": 2,
+  "rewrites": [
+    { "source": "/api/ra", "destination": "/api/ra.js" },
+    { "source": "/(.*)", "destination": "/public/$1" }
+  ]
 }
